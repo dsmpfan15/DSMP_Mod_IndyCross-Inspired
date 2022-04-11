@@ -1,25 +1,25 @@
 function onCreate()
 --RANGO 1 Partes que no consuman muchos recurso o lo esencial.
-	makeLuaSprite('cielo', 'angry/CH-RN-00', 0, 180);
-    setLuaSpriteScrollFactor('cielo', 0.99, 0.99);
+	makeLuaSprite('cielo', 'Cuphead/angry/CH-RN-00', 0, 0);
+    setLuaSpriteScrollFactor('cielo', 0.5, 0.5);
 	scaleObject('cielo', 2.0, 2.0);
 
-	makeLuaSprite('bosque', 'angry/CH-RN-01', -125, 150);
+	makeLuaSprite('bosque', 'Cuphead/angry/CH-RN-01', -125, 150);
     setLuaSpriteScrollFactor('bosque', 1.3, 1.3);
 	setLuaSpriteScrollFactor('bosque', 0.99, 0.99);
 	scaleObject('bosque', 2.0, 2.0);
 
-	makeLuaSprite('piso', 'angry/CH-RN-02', 0, 0);
+	makeLuaSprite('piso', 'Cuphead/angry/CH-RN-02', 0, 0);
 	scaleObject('piso', 2.0, 2.0);
 	setLuaSpriteScrollFactor('piso', 0.99, 0.99);
 
-	makeAnimatedLuaSprite('lluvia', 'angry/NewRAINLayer01', 0, 0);
+	makeAnimatedLuaSprite('lluvia', 'Cuphead/angry/NewRAINLayer01', 0, 0);
 
     setLuaSpriteScrollFactor('lluvia', 0.9, 0.9);
 
 	scaleObject('lluvia', 1.0, 1.0);
 
-	makeAnimatedLuaSprite('lluvia2', 'angry/NewRAINLayer02', 0, 0);
+	makeAnimatedLuaSprite('lluvia2', 'Cuphead/angry/NewRAINLayer02', 0, 0);
 
     setLuaSpriteScrollFactor('lluvia2', 0.9, 0.9);
 
@@ -38,6 +38,29 @@ function onCreate()
 
 end
 
+function onCreatePost()
+	if not downscroll then
+        setProperty('healthBarBG.visible', false);
+        makeLuaSprite('cupheadhealthbar', 'Cuphead/cuphealthbar', 0, 625);
+        addLuaSprite('cupheadhealthbar', true);
+        screenCenter('cupheadhealthbar', 'x');
+        setObjectCamera('cupheadhealthbar', 'camHUD');
+        setObjectOrder('cupheadhealthbar', getObjectOrder('healthBar') + 1);
+        scaleObject('healthBar', 1, 2.5);
+        setProperty('healthBar.y', getProperty('healthBar.y') - 1);
+        setProperty('iconP1.y', 575)
+    else
+        setProperty('healthBarBG.visible', false);
+        makeLuaSprite('cupheadhealthbar', 'Cuphead/cuphealthbar', 0, 65);
+        addLuaSprite('cupheadhealthbar', true);
+        screenCenter('cupheadhealthbar', 'x');
+        setObjectCamera('cupheadhealthbar', 'camHUD');
+        setObjectOrder('cupheadhealthbar', getObjectOrder('healthBar') + 1);
+        scaleObject('healthBar', 1, 2.5);
+        setProperty('healthBar.y', getProperty('healthBar.y') - 1);
+        setProperty('iconP1.y', 10)
+    end
+end
 
 local xx = 700; -- Code to change the position of the camera to the left or right for your opponent, Less = Left (They can be negative numbers), More = Right
 local yy = 700; -- Code to change the position of the camera up or down for the enemy Less = Down (They can be negative numbers), More = Up
