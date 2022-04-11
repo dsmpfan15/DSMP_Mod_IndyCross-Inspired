@@ -71,7 +71,7 @@
 	"image": "characters/bendy_question",
 	"position": [
 		0,
-		40
+		20
 	],
 	"healthicon": "bendycutout",
 	"flip_x": false,
@@ -82,7 +82,7 @@
 	],
 	"camera_position": [
 		-190,
-		10
+		-40
 	],
 	"sing_duration": 6.1,
 	"scale": 1.4
