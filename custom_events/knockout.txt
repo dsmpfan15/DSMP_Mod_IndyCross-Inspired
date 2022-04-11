@@ -1,0 +1,2 @@
+Value 1: 180 o 0
+Value 2: 1

@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Snake-eyes",
+			"Cuphead",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"technicolor-tussle",
+			"Cuphead",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"knockout",
+			"Cuphead",
+			[
+				0,
+				80,
+				255
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Hard",
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"storyName": "not cumhead",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

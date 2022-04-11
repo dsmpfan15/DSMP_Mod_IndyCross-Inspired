@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				32,
+				-254
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF idle dance instance"
+		},
+		{
+			"offsets": [
+				51,
+				-257
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF NOTE LEFT instance"
+		},
+		{
+			"offsets": [
+				18,
+				-279
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF NOTE DOWN instance"
+		},
+		{
+			"offsets": [
+				4,
+				-217
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF NOTE UP instance"
+		},
+		{
+			"offsets": [
+				10,
+				-253
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF NOTE RIGHT instance"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "attack",
+			"loop": false,
+			"name": "BF idle dance instance"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BoyFriend_Cuphead",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		235,
+		255
+	],
+	"camera_position": [
+		550,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}
