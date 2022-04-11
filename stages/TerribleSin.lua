@@ -8,15 +8,28 @@ function onCreatePost()
     setTextFont('timeTxt','Bendy.ttf')
     setPropertyFromGroup('grpNoteSplashes', i, 'offset.x', -35);
 
-    setProperty('healthBarBG.visible', false);
-    makeLuaSprite('bendyhealthbar', 'Bendy/bendyhealthbar', 0, 566);
-    addLuaSprite('bendyhealthbar', true);
-    screenCenter('bendyhealthbar', 'x');
-    setObjectCamera('bendyhealthbar', 'camHUD');
-    setObjectOrder('bendyhealthbar', getObjectOrder('healthBar') + 1);
-    scaleObject('healthBar', 1, 2.5);
-    setProperty('healthBar.y', getProperty('healthBar.y') - 1);
-    setProperty('iconP1.y', 575)
+    if not downscroll then
+        setProperty('healthBarBG.visible', false);
+        makeLuaSprite('bendyhealthbar', 'Bendy/bendyhealthbar', 0, 566);
+        addLuaSprite('bendyhealthbar', true);
+        screenCenter('bendyhealthbar', 'x');
+        setObjectCamera('bendyhealthbar', 'camHUD');
+        setObjectOrder('bendyhealthbar', getObjectOrder('healthBar') + 1);
+        scaleObject('healthBar', 1, 2.5);
+        setProperty('healthBar.y', getProperty('healthBar.y') - 1);
+        setProperty('iconP1.y', 575)
+    else
+        setProperty('healthBarBG.visible', false);
+        makeLuaSprite('bendyhealthbar', 'Bendy/bendyhealthbar', 0, 0);
+        addLuaSprite('bendyhealthbar', true);
+        screenCenter('bendyhealthbar', 'x');
+        setObjectCamera('bendyhealthbar', 'camHUD');
+        setObjectOrder('bendyhealthbar', getObjectOrder('healthBar') + 1);
+        scaleObject('healthBar', 1, 2.5);
+        setProperty('healthBar.y', getProperty('healthBar.y') - 1);
+        setProperty('iconP1.y', 10)
+    end
+
 end
 
 
