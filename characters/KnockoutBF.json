@@ -58,8 +58,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				15,
-				-238
+				17,
+				-240
 			],
 			"anim": "singLEFTmiss",
 			"fps": 24,
@@ -69,8 +69,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				10,
+				-267
 			],
 			"anim": "singDOWNmiss",
 			"fps": 24,
@@ -80,8 +80,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				15,
-				-238
+				0,
+				-246
 			],
 			"anim": "singUPmiss",
 			"fps": 24,
@@ -91,8 +91,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				15,
-				-238
+				-2,
+				-239
 			],
 			"anim": "singRIGHTmiss",
 			"fps": 24,
@@ -102,8 +102,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				15,
-				-238
+				20,
+				-261
 			],
 			"anim": "dodge",
 			"fps": 24,
@@ -136,9 +136,9 @@
 		255
 	],
 	"camera_position": [
-		190,
-		310
+		60,
+		350
 	],
 	"sing_duration": 6.1,
-	"scale": 0.7
+	"scale": 0.6
 }
