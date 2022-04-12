@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-108,
+				-353
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left instance"
+		},
+		{
+			"offsets": [
+				-191,
+				-377
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down instance"
+		},
+		{
+			"offsets": [
+				-167,
+				-283
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up instance"
+		},
+		{
+			"offsets": [
+				-198,
+				-340
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right instance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-114,
+				-370
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Pewleft instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-183,
+				-383
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "pewdown instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-161,
+				-322
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "PewUp instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-184,
+				-359
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "PewRight instance",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-190,
+				-357
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "1 instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-176,
+				-356
+			],
+			"anim": "Roundabout",
+			"fps": 24,
+			"name": "Roundattack instance",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-186,
+				-364
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "DIE BITCH instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				22,
+				-193
+			],
+			"anim": "Hadouken",
+			"fps": 24,
+			"name": "Hadoken!! instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-119,
+				-364
+			],
+			"anim": "Ouch",
+			"fps": 24,
+			"name": "Ouch instance",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Cuphead Pissed",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "Cuphead Mad",
+	"flip_x": false,
+	"healthbar_colors": [
+		171,
+		22,
+		74
+	],
+	"camera_position": [
+		140,
+		400
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
