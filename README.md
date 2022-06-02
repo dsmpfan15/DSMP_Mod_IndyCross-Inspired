@@ -1,41 +1,22 @@
-# Indie-Cross-Psych-Port
-Psych Port of the Friday Night Funkin' Mod, Indie Cross.
+# Dream SMP Mod
+Source code for my Dream SMP mod, with code mostly by BlueColorsin with their mod, IndyCross.
 
 
-Update Log 4/11/22
 
--- Changed stage name to RainingPlains ------
+## Credits!
+dsmpfan15(me!)
 
-updated chart completely -------
-
-removed "cuphead MAD" character file---
-removed "cuphead night" character file---
-
- created "KnockoutCup" character in compensation---
-
-rename event for Cuphead's projectiles to 
-KnockoutCup.lua :) + CHANGES
-
-removed dodge event lua + text from events-----
-
-removed "KNOCKOUTEX" .txt from events----
-
-removed "OpponentSing' .lua + .txt from events-----
-
-added Hadouken.lua to knockout data--------
-
-moved all cuphead sounds to sounds/Cuphead!!!--
-
-updated KnockoutBF---
-
-update raining plains lua file-----
-
-rename script.lua in Data/Knockout to "Follow Cam" !
-
-updated fonts folder with Cuphead.ttf
+BlueColorsin(programming and dynamics)
 
 
-most importantly
 
-dodging mechanic for knockout!
------------------------------------------------------------------------
+## Shoutouts/Inspiration!
+BlueColorsin(Thank you for making this mod pack suprisingly easy to use!(probably because I only understand Python, Java, CSS, and HTML) It helps a _lot_ with being able to do this mod! And also thank you for making IndyCross! The ending made me go like, "Wait, WHAT THE _FUCK?!_" and I loved it.)
+
+The following Content Creators. These CCs are _confirmed_ for being in the mod:
+Dream, GeorgeNotFound, Sapnap, BadBoyHalo, TommyInnit, Tubbo_, Ranboo, Philza, WilburSoot, Quackity, Punz
+
+
+
+## Changelog:
+(not updated from the original mod-pack yet)
